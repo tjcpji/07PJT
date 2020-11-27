@@ -38,11 +38,11 @@
 	 <update	id="updateProduct"	parameterType="product" >
 	   	UPDATE product
 	   	<set>
-	   		prod_name 	= #{prodName} ,
-			prod_detail	= #{prodDetail} ,
+	   		prod_name 		= #{prodName} ,
+			prod_detail		= #{prodDetail} ,
 			manufacture_day = #{manuDate} ,
-			price = #{price} ,
-			image_file = #{fileName}
+			price 			= #{price} ,
+			image_file 		= #{fileName}
 	   	</set>
 	   	WHERE prod_no = #{prodNo}
 	 </update>
